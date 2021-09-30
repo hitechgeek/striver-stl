@@ -9,7 +9,19 @@ using namespace std;
 // }
 
 //user-defined datatype : Structure
+struct node {
+	string str;
+	int num;
+	double doub;
+	char x;
 
+	node(str_, num_, doub_, x_) { //constructor
+		str=str_;
+		num=num_;
+		doub=doub_;
+		x=x_;
+	}
+};
 
 // declaring anything globally it makes automatically 0.
 array <int,3> arr; // -> {0, 0, 0}
