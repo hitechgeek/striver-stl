@@ -47,17 +47,7 @@ bool comp(int el1, int el2) {
 // I want you to sort this in such a way that the element who have first element in pair smaller appears first
 // and if first is equal then sort according to second and keep the larger second.
 
-bool comp(pair <int,int> el1, pair <int,int> el2) {
-	if(el1.first<el2.first) {
-		return true;
-	} 
-	if(el1.first==el2.first) {
-		if(el1.second>el2.second) {
-			return true;
-		}
-	}
-	return false;
-}
+
 
 int main() {
 	sort(arr,arr+3,comp);
