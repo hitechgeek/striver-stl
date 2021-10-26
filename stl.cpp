@@ -11,6 +11,7 @@ using namespace std;
 //user-defined datatype : Structure
 struct node {
 	string str;
+	long n;
 	int num;
 	double doub;
 	char x;
