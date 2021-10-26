@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-	string s="bca";
+	string s="bcaa";
 	sort(s.begin(),s.end());
 	do {
 		cout<<s<<endl;
